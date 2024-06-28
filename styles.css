@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(img/stars-clouds-sky-digital-art-hd-wallpaper-uhdpaper.com-149@3@a.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+    text-align: center;
+    width: 400px;
+}
+
+.container h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-decoration-color: #d269bc;
+    color: #f0f0f0;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+    
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f0f0f0;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.10)
+}
+
+input, button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.10);
+    margin-left: 3%;
+    color: #f0f0f0;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.10);
+    color: #fff;
+    cursor: pointer;
+    width: 300px;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #7d3a87;
+}
+
+.resultado {
+    display: none; /* Vai ficar oculto no começo */
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.10);
+    border: 1px solid #ccc;
+    box-shadow: rgba(0, 0, 0, 0.10);
+    border-radius: 4px;
+    text-align: left;
+    color: #f0f0f0;
+}
